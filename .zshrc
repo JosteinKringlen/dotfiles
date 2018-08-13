@@ -28,7 +28,7 @@ plugins=(
 
 # GENERAL STUFF
 alias lastpw="lpass show -c -G --password"
-# alias listAlias="cat $OMF_CONFIG/init.fish"
+alias listAlias="cat ~/.zshrc"
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 export TERM=xterm-256color
@@ -43,7 +43,6 @@ alias bubu="brew update; brew upgrade"
 alias ga="git add"
 alias gal="git add ."
 alias gb="git branch -av"
-alias gca="git commit -am"
 alias gcb="git checkout -b"
 alias gch="git checkout"
 alias gcm="git commit -m"
@@ -54,6 +53,11 @@ alias gpi="git pull; yarn install"
 alias gpl="git pull"
 alias gpu="git push -u origin"
 alias gst="git status"
+
+# GIT DOTFILES
+alias ca="config add"
+alias cst="config status"
+alias ccam="config commit -am"
 
 # YARN
 alias ya="yarn add"
