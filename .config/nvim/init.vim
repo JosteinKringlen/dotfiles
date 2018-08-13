@@ -25,7 +25,8 @@ Plug 'tpope/vim-surround'
 
 call plug#end()
 
-set number 				"Enable line numbers
+set number relativenumber 				"Enable line numbers
+set scrolloff=4
 filetype plugin indent on 		"Enable filetype recognition
 syntax on 				"Enable syntax highlighting
 set encoding=utf-8 			"Set utf-8 encoding

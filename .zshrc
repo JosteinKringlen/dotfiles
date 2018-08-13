@@ -24,6 +24,8 @@ plugins=(
   zsh-syntax-highlighting
   vi-mode
   thefuck
+  react-native
+  osx
 )
 
 # GENERAL STUFF

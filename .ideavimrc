@@ -1,0 +1,4 @@
+set number relativenumber
+set scrolloff=4
+map + $
+map 0 ^
