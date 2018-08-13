@@ -58,6 +58,7 @@ alias gst="git status"
 alias ca="config add"
 alias cst="config status"
 alias ccam="config commit -am"
+alias cp="config push"
 
 # YARN
 alias ya="yarn add"
