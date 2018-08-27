@@ -3,6 +3,7 @@ My dotfiles for different stuff
 
 ## Easy setup
 ```bash
+$ pacman -S zsh || brew install zsh zsh-completions
 $ echo "alias config"='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $HOME/.zshrc
 $ git clone --bare git@github.com:JosteinKringlen/dotfiles.git $HOME/.cfg
 $ yaourt -S zsh-syntax-highlighting || brew install zsh-syntax-highlighting
