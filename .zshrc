@@ -71,7 +71,7 @@ alias ysw="yarn start:watch"
 alias yt="yarn test"
 
 source $ZSH/oh-my-zsh.sh
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 function zle-keymap-select zle-line-init
 {
