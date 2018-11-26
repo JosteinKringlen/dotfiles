@@ -60,7 +60,7 @@ alias gst="git status"
 alias ca="config add"
 alias cst="config status"
 alias ccam="config commit -am"
-alias cp="config push"
+alias cpu="config push"
 
 # YARN
 alias ya="yarn add"
@@ -101,3 +101,7 @@ export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 prompt_context() {}
 
 alias config='/usr/bin/git --git-dir=/Users/Jostein/.cfg/ --work-tree=/Users/Jostein'
+
+# tabtab source for electron-forge package
+# uninstall by removing these lines or running `tabtab uninstall electron-forge`
+[[ -f /Users/Jostein/Documents/Prog/rgb-mousepad/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /Users/Jostein/Documents/Prog/rgb-mousepad/node_modules/tabtab/.completions/electron-forge.zsh
